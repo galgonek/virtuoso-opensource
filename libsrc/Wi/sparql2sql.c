@@ -7962,9 +7962,11 @@ spar_propagate_limit_as_option (sparp_t *sparp, SPART *tree, SPART *outer_limit)
       }
     case SPAR_TRIPLE:
       {
+        /*
         if (NULL == outer_limit)
           return;
         sparp_set_option (sparp, &(tree->_.triple.options), LIMIT_L, outer_limit, SPARP_SET_OPTION_REPLACING);
+        */
         return;
       }
     }
